@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Book</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>My Recipe Book</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="categories" id="categories" data-aos="fade-up">
+            <h2>Recipe Categories</h2>
+            <div class="category-list">
+                <a href="#appetizers" class="category-item">Appetizers</a>
+                <a href="#main-courses" class="category-item">Main Courses</a>
+                <a href="#desserts" class="category-item">Desserts</a>
+                <a href="#beverages" class="category-item">Beverages</a>
+            </div>
+        </section>
+
+        <section class="recipes" id="appetizers" data-aos="fade-up">
+            <h2>Appetizers</h2>
+            <article class="recipe">
+                <img src="https://via.placeholder.com/600x400" alt="Recipe Image">
+                <h3>Bruschetta</h3>
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>1 baguette, sliced</li>
+                    <li>2 cups diced tomatoes</li>
+                    <li>1/4 cup chopped basil</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>1/4 cup olive oil</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                    <li>Preheat oven to 400°F (200°C).</li>
+                    <li>Arrange baguette slices on a baking sheet and brush with olive oil.</li>
+                    <li>Toast in the oven for 5-7 minutes or until golden brown.</li>
+                    <li>In a bowl, combine tomatoes, basil, garlic, salt, and pepper.</li>
+                    <li>Top each baguette slice with the tomato mixture and serve.</li>
+                </ol>
+            </article>
+        </section>
+
+        <section class="recipes" id="main-courses" data-aos="fade-up">
+            <h2>Main Courses</h2>
+            <article class="recipe">
+                <img src="https://via.placeholder.com/600x400" alt="Recipe Image">
+                <h3>Grilled Chicken</h3>
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>4 chicken breasts</li>
+                    <li>1/4 cup olive oil</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>1 tbsp lemon juice</li>
+                    <li>1 tsp dried oregano</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                    <li>Preheat grill to medium-high heat.</li>
+                    <li>In a bowl, mix olive oil, garlic, lemon juice, oregano, salt, and pepper.</li>
+                    <li>Marinate chicken breasts in the mixture for at least 30 minutes.</li>
+                    <li>Grill chicken for 6-8 minutes on each side or until fully cooked.</li>
+                    <li>Serve with your favorite side dishes.</li>
+                </ol>
+            </article>
+        </section>
+
+        <section class="recipes" id="desserts" data-aos="fade-up">
+            <h2>Desserts</h2>
+            <article class="recipe">
+                <img src="https://via.placeholder.com/600x400" alt="Recipe Image">
+                <h3>Chocolate Cake</h3>
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>1 and 1/2 cups flour</li>
+                    <li>1 cup sugar</li>
+                    <li>1/2 cup cocoa powder</li>
+                    <li>1 tsp baking soda</li>
+                    <li>1/2 tsp salt</li>
+                    <li>1 cup water</li>
+                    <li>1/2 cup vegetable oil</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>1 tbsp vinegar</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                    <li>Preheat oven to 350°F (175°C).</li>
+                    <li>In a large bowl, combine flour, sugar, cocoa powder, baking soda, and salt.</li>
+                    <li>Add water, oil, vanilla, and vinegar. Mix until smooth.</li>
+                    <li>Pour batter into a greased 9-inch round baking pan.</li>
+                    <li>Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.</li>
+                    <li>Allow to cool before serving.</li>
+                </ol>
+            </article>
+        </section>
+
+        <section class="recipes" id="beverages" data-aos="fade-up">
+            <h2>Beverages</h2>
+            <article class="recipe">
+                <img src="https://via.placeholder.com/600x400" alt="Recipe Image">
+                <h3>Lemonade</h3>
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>1 cup fresh lemon juice</li>
+                    <li>1 cup sugar</li>
+                    <li>5 cups water</li>
+                    <li>Ice cubes</li>
+                    <li>Lemon slices for garnish</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                    <li>In a saucepan, combine sugar and 1 cup of water. Heat until sugar is dissolved to make a syrup.</li>
+                    <li>In a pitcher, combine lemon juice, syrup, and remaining water. Stir well.</li>
+                    <li>Serve over ice and garnish with lemon slices.</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Contact us at info@myrecipebook.com | Follow us on social media</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
